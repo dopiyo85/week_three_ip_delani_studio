@@ -9,7 +9,7 @@
 This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios. 
 
 ## Screenshot
-<img src="assets/screenshot.png" width="900px" height="440px">
+<img src="assets/screenshot.png" width="800px" height="400px">
 
 ## Live Page 
 https://dopiyo85.github.io/week_three_ip_delani_studio
