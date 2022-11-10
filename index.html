@@ -9,6 +9,27 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/delani.css" />
+
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5850882928261471"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+      data-dojo-config="usePlainJson: true, isDebug: false"
+    ></script>
+    <script type="text/javascript">
+      window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
+        L.start({
+          baseUrl: "mc.us3.list-manage.com",
+          uuid: "e71bed4d6ae5a7c984dfe28b0",
+          lid: "dbf7e27685",
+          uniqueMethods: true,
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="landing">
@@ -158,43 +179,44 @@
       <h2>CONTACT US</h2>
 
       <form
-        id="form_email"
-        method="POST"
-      >
-        <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0" />
-        <input type="hidden" name="id" value="dbf7e27685" />
-        <div class="form-group form-inline">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Name...."
-            name="MERGE1"
-            id="MERGE1"
-            size="20"
-            value=""
-          />
-          <input
-            type="email"
-            class="form-control"
-            placeholder="Email...."
-            autocapitalize="off"
-            autocorrect="off"
-            name="MERGE0"
-            id="MERGE0"
-            size="20"
-            value=""
-          />
-        </div>
-        <div class="form-group">
-          <textarea
-            class="form-control"
-            rows="8"
-            id="comment"
-            placeholder="Your message here...."
-          ></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary col-md-1">Submit</button>
-      </form>
+      id="form_email"
+      action="https://gmail.us3.list-manage.com/subscribe/post"
+      method="POST"
+    >
+      <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0" />
+      <input type="hidden" name="id" value="dbf7e27685" />
+      <div class="form-group form-inline">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Name...."
+          name="MERGE1"
+          id="MERGE1"
+          size="25"
+          value=""
+        />
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Email...."
+          autocapitalize="off"
+          autocorrect="off"
+          name="MERGE0"
+          id="MERGE0"
+          size="25"
+          value=""
+        />
+      </div>
+      <div class="form-group">
+        <textarea
+          class="form-control"
+          rows="8"
+          id="comment"
+          placeholder="Your message here...."
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+    </form>
     </div>
     <footer>
       <img src="assets/social_icons/twitter.png" alt="twitter" />
