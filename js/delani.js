@@ -99,11 +99,4 @@ $(document).ready(function(){
     });
   
   });
-  window.dojoRequire(["mojo/signup-forms/Loader"], function (L) {
-    L.start({
-      baseUrl: "mc.us3.list-manage.com",
-      uuid: "e71bed4d6ae5a7c984dfe28b0",
-      lid: "dbf7e27685",
-      uniqueMethods: true,
-    });
-  });
+ 
