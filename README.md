@@ -37,7 +37,7 @@ https://dopiyo85.github.io/week_three_ip_delani_studio
 |  Enter your name  |   Diana Opiyo |     |
 | Enter your Email Address  | dopiyo@gmail.com |   |
 | Enter your message or comment   |  Hello, I am requesting for a quotation     |     |
-| Press Submit|     |Pop up "Diana Opiyo , we have received your message. Thank you for intereste in our services.|
+| Press Submit|     |Pop up "Diana Opiyo , we have received your message. Thank you for your interest in our services.|
 
 ## Known Bugs
 * No Known bugs at the moment
