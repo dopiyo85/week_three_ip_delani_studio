@@ -26,7 +26,7 @@
       $(".hide-product-image").toggle();
     })
   })
-
+// Email alert message
   $('.btn').click(function () {
     var Name = $('#your-name').val();
     var Email = $('#email').val();
