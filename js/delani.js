@@ -9,7 +9,7 @@
       }
     })
   });
-  
+  /*Toggle effect on the what we do page*/
   $(document).ready(function() {
     $("#design-image").click(function(){
       $("#design").toggle();
