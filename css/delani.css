@@ -30,7 +30,7 @@ html{
   padding-top : 22px;
   margin-top: 10%;
   padding-bottom: 30px; 
-  /* animation-iteration-count: infinite; */
+  
 }
 #mouse-click {
   animation: bounce 2s infinite;
