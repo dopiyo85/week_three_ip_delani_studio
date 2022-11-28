@@ -10,22 +10,20 @@ $(document).ready(function () {
   })
 });
 /*Toggle effect on the what we do page*/
-$(document).ready(function () {
-  $("#design-image").click(function () {
-    $("#design").toggle();
-    $(".hide-design-image").toggle();
-  })
+$(".whatWeDo").click(function (e) {
+  const clickpoint = e.target;
+  if (clickpoint.matches("img")) {
+    var narrative = clickpoint.previousElementSibling;
+    $(clickpoint).toggle();
+    $(narrative).toggle();
+  }
+  else if (clickpoint.matches("h3") || clickpoint.matches("p")) {
+    var narrative = clickpoint.parentElement.nextElementSibling;
+    $(clickpoint.parentElement).toggle();
+    $(narrative).toggle();
+  }
+});
 
-  $("#development-image").click(function () {
-    $("#development").toggle();
-    $(".hide-development-image").toggle();
-  })
-
-  $("#product-image").click(function () {
-    $("#product").toggle();
-    $(".hide-product-image").toggle();
-  })
-})
 // Email alert message
 $('.btn').click(function () {
   var Name = $('#your-name').val();
